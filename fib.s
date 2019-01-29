@@ -1,7 +1,7 @@
 .globl
 .text
 main:
-	li a0, 10
+	li a0, 20  # nth fib num
     jal ra, fib1
     li a0, 17
     ecall
